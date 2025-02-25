@@ -1,0 +1,29 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+table caption{
+    color: red;
+}
+table{
+    width: 100%;
+    border-collapse: collapse; /*remove a borda dupla*/
+}
+thead,tfoot  {
+    background-color: gray;
+}
+th,td{
+    border: 1px solid black;/*borda unica linha*/
+    padding: 8px;
+    text-align: left;
+}
+@media(max-width:480px){
+    caption{
+        color: yellow;
+        font-size: 30px;
+    }
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+    }
+}

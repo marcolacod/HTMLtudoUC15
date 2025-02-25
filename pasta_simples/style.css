@@ -1,0 +1,41 @@
+/* INFORMAÇÃO GLOBAL DO SITE */
+body {
+    font-family: Arial,sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/*INFORMAÇÃO DO CABEÇALHO HEADER*/
+header{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/*INFORMAÇÃO DO LINK A*/
+a{
+    color: #4CAF50;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+
+}
+
+/*INFORMAÇÃO DO CORPO MAIN */
+main{
+    padding: 20px;
+    text-align:center;
+}
+
+/* INFORMAÇOES DO RODAPE */
+footer{
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

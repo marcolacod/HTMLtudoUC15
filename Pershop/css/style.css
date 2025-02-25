@@ -1,0 +1,122 @@
+/* ESTILO DO SITE GERAL */
+body {
+    font-family:Arial,sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* FIM */
+ 
+/* CABEÇALHO */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10PX 0;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+ 
+li {
+    display: inline;
+}
+ 
+li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+ 
+}
+li a:hover {
+    color: #007BFF;
+    background-color: #f4f4f4;
+    text-decoration: none;
+    padding: 5px;
+}
+/* FIM */
+ 
+/*quem somos */
+.quemsomos {
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre as caixas */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    gap: 20px; /* Espaçamento entre as caixas */
+    margin-top: 30px;
+}
+.quemsomos section {
+    border: 2px solid #ccc; /* Borda ao redor das caixas */
+    border-radius: 10px; /* Cantos arredondados */
+    padding: 20px; /* Espaço interno */
+    background-color: #f9f9f9; /* Cor de fundo */
+    width: 20%; /* Largura de cada caixa */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+}
+ 
+ 
+/* RODAPE */
+footer {
+    background-color:deepskyblue;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.index {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as seções sejam distribuídas em várias linhas */
+    justify-content: space-between; /* Espaçamento uniforme entre as seções */
+    gap: 20px; /* Espaçamento entre as caixas */
+    padding: 20px; /* Espaço interno ao redor */
+}
+.index img {
+    width: 50%; /* A imagem ocupa toda a largura da seção */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.index section {
+    flex: 1 1 calc(20% - 20px); /* Ocupa 20% da largura menos o gap */
+    text-align: center; /* Centraliza o conteúdo */
+    border: 2px solid #ccc; /* Borda ao redor da seção */
+    border-radius: 10px; /* Cantos arredondados */
+    padding: 10px; /* Espaçamento interno */
+    background-color: white; /* Cor de fundo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+}
+/* Serviços */
+.servico {
+    display: flex;
+    flex-direction: column; /* Alinha as seções verticalmente */
+    gap: 30px; /* Espaçamento entre as linhas */
+    padding: 20px; /* Espaço interno ao redor do main */
+}
+.servico .linha {
+    border: solid 1px purple;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os itens */
+    gap: 20px; /* Espaçamento entre imagem e texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+}
+.texto {
+    border: solid 1px black;
+    width: 80%; /* Texto ocupa 60% da largura */
+    text-align: left; /* Texto a direita para boa leitura */
+}
+.texto_invertido {
+    width: 80%; /* Texto ocupa 60% da largura */
+    text-align: right; /* Texto a esquerda para boa leitura */
+}
+.servico .linha img, .linha_invertida img {
+    width: 20%; /* Imagens ocupam 40% da largura */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+}
+.servico .linha_invertida {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os itens */
+    gap: 20px; /* Espaçamento entre imagem e texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+}

@@ -1,0 +1,67 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+body {
+    padding-bottom: 50px; /* Ajuste com base na altura do rodapé */
+}
+ 
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+ 
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+ 
+nav a:hover {
+    text-decoration: underline;
+}
+ 
+main {
+    padding: 20px;
+    text-align: center;
+}
+ 
+.conteudo {
+    margin: 20px auto;
+    max-width: 800px; /* Ajuste a largura máxima do conteúdo */
+    text-align: left;
+}
+/* Layout com imagem e texto lado a lado */
+.imagem-texto {
+    display: flex;
+    align-items: center; /* Alinha verticalmente imagem e texto */
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
+}
+.imagem-texto img {
+    max-width: 40%; /* A imagem ocupa até 40% do espaço disponível */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+.imagem-texto p {
+    flex: 1; /* O texto ocupa o restante do espaço disponível */
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+/* Rodapé */
+footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+ 
